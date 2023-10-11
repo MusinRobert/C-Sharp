@@ -38,11 +38,13 @@ public class Answer
     {
         // Введите свое решение ниже
         int[,] matrix = new int[n, m];
+        int num = 1;
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m; j++)
             {
-                matrix[i, j] = 1 + ((i + j) + (n * i)) * k;
+                matrix[i, j] = num;
+                num += k;
             }
         }
         return matrix;

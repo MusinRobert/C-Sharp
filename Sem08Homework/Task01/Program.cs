@@ -133,8 +133,8 @@ int MinValueArray(int[] array)
 int[,] RotateArray(int[,] array)
 {
     int n = array.GetLength(0), m = array.GetLength(1);
-    int[,] res = new int[m,n];
-    for(int i = 0; i<n;i++)
+    int[,] res = new int[m, n];
+    for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             res[j, n - i - 1] = array[i, j];
     return res;
@@ -198,3 +198,39 @@ int[,] RotateArray(int[,] array)
 10  9  8 7
 */
 
+Console.Clear();
+int rows = GetNumber("m");
+int columns = GetNumber("n");
+int[,] array = GetMatrix(rows, columns);
+PrintMatrix(array);
+System.Console.WriteLine();
+int[,] result = RotateArray(array);
+PrintMatrix(result);
+
+const int n = 4;
+const int m = 4;
+int[,] matrix = new int[n, m];
+
+int row = 0;
+int col = 0;
+int dx = 1;
+int dy = 0;
+int dirChanges = 0;
+int visits = m;
+
+for (int i = 0; i < matrix.Length; i++)
+{
+    matrix[row, col] = i + 1;
+    if (--visits == 0)
+    {
+        visits = m * (dirChanges % 2) + n * ((dirChanges + 1) % 2) - (dirChanges / 2 - 1) - 2;
+        int temp = dx;
+        dx = -dy;
+        dy = temp;
+        dirChanges++;
+    }
+
+    col += dx;
+    row += dy;
+}
+PrintMatrix(matrix);

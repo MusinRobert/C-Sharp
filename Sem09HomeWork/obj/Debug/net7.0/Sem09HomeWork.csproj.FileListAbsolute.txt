@@ -1,0 +1,14 @@
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\Sem09HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\Sem09HomeWork.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\Sem09HomeWork.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\Sem09HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\bin\Debug\net7.0\Sem09HomeWork.exe
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\bin\Debug\net7.0\Sem09HomeWork.deps.json
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\bin\Debug\net7.0\Sem09HomeWork.runtimeconfig.json
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\bin\Debug\net7.0\Sem09HomeWork.dll
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\bin\Debug\net7.0\Sem09HomeWork.pdb
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\Sem09HomeWork.dll
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\refint\Sem09HomeWork.dll
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\Sem09HomeWork.pdb
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\Sem09HomeWork.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\Edu\C-Sharp\Sem09HomeWork\obj\Debug\net7.0\ref\Sem09HomeWork.dll

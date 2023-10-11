@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Seminar09.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Task01\\Task01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Seminar09.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Task01\\Task01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Seminar09.csproj",
-        "projectName": "Seminar09",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Seminar09.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Task01\\Task01.csproj",
+        "projectName": "Task01",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Task01\\Task01.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Edu\\C-Sharp\\Seminar09\\Task01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"

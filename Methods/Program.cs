@@ -57,9 +57,17 @@ int SumNumbers(string num, int counter = 0)
 
 int SetNumber(string message)
 {
-    Console.Write($"Enter number {message}: ");
-    int num = Convert.ToInt32(Console.ReadLine());
-    return num;
+    Console.WriteLine($"{message}");
+    string strNum = Console.ReadLine();
+    int num = 0;
+
+    if (int.TryParse(strNum, out num))
+    {
+        return num;
+    }
+
+    System.Console.WriteLine("неверный формат");
+    return SetNumber(message);
 }
 
 int GetNumber(string message)
@@ -194,8 +202,8 @@ int MinValueArray(int[] array)
 int[,] RotateArray(int[,] array)
 {
     int n = array.GetLength(0), m = array.GetLength(1);
-    int[,] res = new int[m,n];
-    for(int i = 0; i<n;i++)
+    int[,] res = new int[m, n];
+    for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             res[j, n - i - 1] = array[i, j];
     return res;
